@@ -1,0 +1,131 @@
+
+*{
+    margin: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@mixin daj($jc){
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+
+@mixin btn($clr){
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border: none;
+    background-color:$clr;
+    color: white;
+    border-radius: 13px;
+}
+
+header{
+    height: 20vh;
+    @include daj(space-around);
+    .h2{
+        @include daj(space-between);
+        width: 25%;
+        p{
+            font-size: 15px;
+            color: grey;
+        }
+    }
+    .h3 button{
+       @include btn(#FF7143);
+    }
+}
+.main1{
+    height: 120vh;
+    width: 92%;
+    @include daj(space-around);
+    div{
+        width: 40%;
+        height: 80%;
+       button{
+        margin-top: 40px;
+        @include btn(#5454D4);
+       }
+    }
+}
+.main2{
+    height: 40vh;
+    @include daj(space-around)
+}
+.main3{
+    height: 90vh;
+    @include daj(center);
+    div{
+        width: 40%;
+    }
+}
+.main4{
+    height: 90vh;
+    @include daj(space-around);
+    div{
+        width: 35%;
+    }
+}
+.main5{
+    height: 60vh;
+    @include daj(space-around);
+    div{
+        width: 20%;
+        text-align: center;
+        
+    }
+}
+section{
+    height: 35vh;
+    @include daj (space-around);
+    div{
+        width:37% ;
+        margin-left: 70px;
+        .btn1{
+            @include btn(#5454D4);
+        }
+        .btn2{
+            @include btn(#F7F7FB);
+            color: gray ;
+        }
+    }
+    
+}
+footer{
+    height: 80vh;
+    @include daj(center);
+    gap: 10px;
+    
+    .g1{
+        height: 80%;
+        width: 25%;
+        background-color: #F8F8F8;
+        border-radius: 10px;
+        text-align: center;
+        button{
+            width: 90%;
+            height: 45px;
+            color: #5454D4;
+            background-color: white;
+            border: none;
+            border-radius: 10px;
+            margin-top: 15 px;
+        }
+    }
+    .g2{
+        height: 85%;
+        width: 27%;
+        background-color: #FF7143;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        button{
+            width: 90%;
+            height: 45px;
+            color: white;
+            background-color: #9F3919;
+            border: none;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+    }
+}

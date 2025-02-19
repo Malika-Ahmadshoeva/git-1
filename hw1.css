@@ -1,0 +1,161 @@
+* {
+  margin: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+header .h2 p {
+  font-size: 15px;
+  color: grey;
+}
+header .h3 button {
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  border: none;
+  background-color: #FF7143;
+  color: white;
+  border-radius: 13px;
+}
+
+.main1 {
+  height: 120vh;
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main1 div {
+  width: 40%;
+  height: 80%;
+}
+.main1 div button {
+  margin-top: 40px;
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  border: none;
+  background-color: #5454D4;
+  color: white;
+  border-radius: 13px;
+}
+
+.main2 {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main3 {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main3 div {
+  width: 40%;
+}
+
+.main4 {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main4 div {
+  width: 35%;
+}
+
+.main5 {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main5 div {
+  width: 20%;
+  text-align: center;
+}
+
+section {
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section div {
+  width: 37%;
+  margin-left: 70px;
+}
+section div .btn1 {
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  border: none;
+  background-color: #5454D4;
+  color: white;
+  border-radius: 13px;
+}
+section div .btn2 {
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  border: none;
+  background-color: #F7F7FB;
+  color: white;
+  border-radius: 13px;
+  color: gray;
+}
+
+footer {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+footer .g1 {
+  height: 80%;
+  width: 25%;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  text-align: center;
+}
+footer .g1 button {
+  width: 90%;
+  height: 45px;
+  color: #5454D4;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+footer .g2 {
+  height: 85%;
+  width: 27%;
+  background-color: #FF7143;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+footer .g2 button {
+  width: 90%;
+  height: 45px;
+  color: white;
+  background-color: #9F3919;
+  border: none;
+  border-radius: 10px;
+  margin-top: 25px;
+}/*# sourceMappingURL=hw1.css.map */
